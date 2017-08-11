@@ -13,6 +13,7 @@
    medium-light-gray #ccc
    black #000
    white #fff
+   extra fb9f33
 */
 
 html {
@@ -168,23 +169,23 @@ html {
 /* Package Boxes */
 
 .p-box-img {
-    width: 300px;
-    height: 169px;
+    width: 400px;
+    height: 180px;
 }
 
-.p-box-1, p-box-2, p-box-3 {
+.p-box-1, .p-box-2, .p-box-3 {
     text-align: center;
 }
 
-.p-box-1 .fa, p-box-2 .fa, p-box-3 .fa {
+.p-box-1 .fa, .p-box-2 .fa, .p-box-3 .fa {
     font-size: 60px;
 }
 
-.p-box-1 fa features, p-box-2 fa features, p-box-3 features {
+.p-box-1 fa features, .p-box-2 fa features, .p-box-3 features {
     margin: 20px 0 30px 0;
 }
 
-.p-box-1 fa features li, p-box-2 fa features li, p-box-3 features li {
+.p-box-1 fa features li, .p-box-2 fa features li, .p-box-3 features li {
     padding: 10px 0 10px 0;
     border-bottom: #ccc solid 1px;
 }
@@ -258,4 +259,31 @@ footer {
 footer img {
     height: 90px;
     width: 90px;
+}
+
+/* About */
+
+.about-img {
+    height: 300px;
+    width: 333px;
+}
+
+/* Contact */
+
+.callout {
+    overflow: auto;
+}
+
+button.contact {
+    background: #9985AC !important;
+}
+
+/* Login */
+
+button.login {
+    background: #BF798B !important;
+}
+
+.remember {
+    margin-right: 4px;
 }

@@ -59,10 +59,10 @@
                         <a href="shared.html">Shared Hosting</a>
                     </li>
                     <li>
-                        <a href="vps.html">Earth Hosting</a>
+                        <a href="earth.html">Earth Hosting</a>
                     </li>
                     <li>
-                        <a href="dedicated.html">Heaven Hosting</a>
+                        <a href="heaven.html">Heaven Hosting</a>
                     </li>
                 </ul>
             </div>
@@ -410,9 +410,36 @@
         </div>
     </footer>
 
-        <script
-			  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <div class="reveal" id="loginModal" data-reveal>
+        <h1>Client Login</h1>
+        <form>
+            <div class="row">
+                <label>
+                    <input type="text" placeholder="Username">
+                </label>
+            </div>
+            <div class="row">
+                <label>
+                    <input type="password" placeholder="Password">
+                </label>
+            </div>
+            <span class="float-left remember">Remember me</span>
+            <div class="switch">
+                <input type="checkbox" class="switch-input" id="rememberSwitch" name="rememberSwitch">
+                <label class="switch-paddle" for="rememberSwitch">
+                    <span class="show-for-sr">Remember Me?</span>
+                </label>
+            </div>
+            <button class="button login" type="submit">Login</button>
+        </form>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span>&times;</span>
+        </button>
+    </div>
+
+    <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
     <script>
         $(document).foundation();
     </script>
